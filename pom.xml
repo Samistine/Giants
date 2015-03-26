@@ -72,14 +72,10 @@
 
 
     <repositories>
-        <repository>
+        <!--<repository> (Useless since craftbukkit isn't in the maven repo
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
-        </repository>
-        <repository>
-            <id>secondary spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/groups/public/org/</url>
-        </repository>
+        </repository> -->
         <repository>
             <id>Plugin Metrics</id>
             <url>http://repo.mcstats.org/content/repositories/public</url>
